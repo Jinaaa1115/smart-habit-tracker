@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+  <div class="mainbar">
+    <span id="hamburger-menu"></span>
+    <h2>Smart Habit Tracker</h2>
+  </div>
+  <div class="sidebar" id="sidebar">
+    <ul>
+      <li id="home"><span id="home-habits"></span>Home</li>
+      <li id="calendar"><span id="check-streaks"></span>Check My Streaks</li>
+      <li id="theme"><span id="color-theme"></span>Change Theme</li>
+    </ul>
+  </div>
+  <div class="calendar" id="calendar-container">
+    <h3 id="month-label"></h3>
+    <table id="habit-table">
+      <thead>
+        <tr>
+          <th>Habit</th>
+          
+        </tr>
+      </thead>
+      <tbody id="habit-body">
+        
+      </tbody>
+    </table>
+    <div class="button-container">
+      <button id="prev-month">Previous</button>
+      <button id="next-month">Next</button>
+    </div>
+  </div>
+<div class="main-container"> 
+ <div class="container" id="single-input-container">
+   <img src="images/creativity.png" width="150">
+    <input type="text" id="single-habit-input" placeholder="Enter a habit name">
+    <button id="singleaddhabit" >Add Habit</button>
+  </div>
+  <div class="container" id="habit-container">
+  
+</div></div>
+   
+  
+  </div>
+  <div class="container" id="edit-container">
+    <button id="e-delete">✖</button>
+    <input type="text" placeholder="enter new name for your habit" id="edit-habit">
+    <button id="habitEditBtn">Edit The Habit</button>
+  </div>
+  <script src="image.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
